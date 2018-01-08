@@ -1,6 +1,6 @@
 language: php
 php:
-    - '7.0'
+    - '5.4'
 deploy:
     provider: releases
     api_key:
