@@ -1,6 +1,6 @@
 language: php
 php:
-- '7.0'
+    - '7.0'
 deploy:
     provider: releases
     api_key:
@@ -12,4 +12,4 @@ deploy:
         repo: juahueceb1/egc-demo
         tags: true
 after_success:
-- sh set_tags.sh
+    - sh set_tags.sh
