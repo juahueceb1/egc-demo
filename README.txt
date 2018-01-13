@@ -1,5 +1,9 @@
 Esto es un repositorio de prueba para EGC
 ----------------
 
-Ahora voy a poner una descripciÛn m·s larga para seguir probando GIT
+Ahora voy a poner una descripci√≥n m√°s larga para seguir probando GIT
 Sigo probando...
+
+----------------
+
+Probando Travis...
