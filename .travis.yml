@@ -1,7 +1,11 @@
+language: php
+php:
+  - '5.4'
+  - '5.6'
 deploy:
   provider: releases
   api_key: f22d64b08a554073ef9d92a9702e07cb485a6930
-  file: test/test.php
+  file: prueba/prueba.php
   skip_cleanup: true
   on:
     tags: true
