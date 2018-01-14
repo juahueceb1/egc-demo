@@ -1,11 +1,7 @@
 deploy:
-     provider: releases
-     api_key:
-         secure: f22d64b08a554073ef9d92a9702e07cb485a6930
-     file: 
-         - test
-     skip_cleanup: true
-     on:
-         repo: juahueceb1/egc-demo
-         tags: true
-
+  provider: releases
+  api_key: f22d64b08a554073ef9d92a9702e07cb485a6930
+  file: test/test.php
+  skip_cleanup: true
+  on:
+    tags: true
