@@ -1,10 +1,11 @@
-# Required to run your project under the correct environment.
-language: php
-
-# Versions of PHP you want your project run with.
-php:
-  - 5.4
-  - 5.5
-  - 5.6
-  - hhvm
+deploy:
+     provider: releases
+     api_key:
+         secure: f22d64b08a554073ef9d92a9702e07cb485a6930
+     file: 
+         - test
+     skip_cleanup: true
+     on:
+         repo: juahueceb1/egc-demo
+         tags: true
 
